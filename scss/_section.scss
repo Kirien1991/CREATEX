@@ -1,0 +1,11 @@
+.section {
+  background-image: url("../image/section/section.svg");
+  background-repeat: no-repeat;
+
+  .wrapper {
+  }
+
+  &__conteiner {
+    max-width: 577px;
+  }
+}
