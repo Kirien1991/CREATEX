@@ -1,6 +1,8 @@
 .section {
   background-image: url("../image/section/section.svg");
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 988px;
 
   .wrapper {
   }
@@ -28,6 +30,22 @@
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 60px;
+    color: #ffffff;
+  }
+
+  &__scroll {
+    display: flex;
+    gap: 4px;
+  }
+
+  &__link {
+    display: inline-block;
+    width: 178px;
+    height: 54px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    border-bottom: 2px solid #ffffff;
     color: #ffffff;
   }
 }

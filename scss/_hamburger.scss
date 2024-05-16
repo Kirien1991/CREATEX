@@ -1,12 +1,21 @@
-.hamburger {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background-color: #333;
-  padding: 0 1rem;
+.burger {
+  display: none;
 
-  &__menu {
+  @media screen and (min-width: $media767) {
     display: flex;
+  }
+
+  @include media("max", $media767) {
+    display: flex;
+  }
+
+  &__block {
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #333;
+    padding: 0.1rem;
+  }
+  &__menu {
     width: 30px;
     height: 30px;
     position: relative;
@@ -33,9 +42,9 @@
   }
 }
 
-.hamburg {
+.burg {
+  display: none;
   &__links {
-    display: flex;
     li a {
       color: grey;
       padding: 1rem;

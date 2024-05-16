@@ -23,6 +23,7 @@ body {
 }
 
 .button {
+  margin-bottom: 177px;
   &__btn {
     background: transparent;
     border-radius: 4px;
@@ -36,7 +37,7 @@ body {
       letter-spacing: 0.5px;
       color: #ffffff;
     }
-    &--active {
+    &--orange {
       background-color: #ff5a30;
       border: none;
       padding: 0 39px;
