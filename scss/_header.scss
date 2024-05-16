@@ -37,7 +37,7 @@
   display: flex;
   &__list {
     padding-top: 3px;
-    padding-right: 40px;
+    padding-right: 41px;
     a {
       font-size: 16px;
       font-weight: 700;
@@ -62,10 +62,12 @@
   padding-top: 22px;
   &__image {
     padding-right: 20px;
+    padding-top: 4px;
   }
 
   &__img {
-    padding-right: 12px;
+    padding-right: 11px;
+    padding-top: 4px;
   }
   &__telef {
     display: flex;
@@ -78,10 +80,11 @@
     flex-direction: column;
   }
 
-  &__link {
+  &__description {
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
+
     color: #424551;
   }
 
