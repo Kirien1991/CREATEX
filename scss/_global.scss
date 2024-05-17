@@ -48,3 +48,28 @@ body {
     }
   }
 }
+
+.arrow {
+  width: 48px;
+  height: 48px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 47.5%;
+  right: 23px;
+  transform: rotateY(-48%);
+
+  &--opacity {
+    opacity: 0.5;
+    position: absolute;
+    bottom: 47.5%;
+    left: 23px;
+  }
+
+  &__link {
+  }
+
+  &__image {
+    padding: 17px 15px;
+  }
+}
