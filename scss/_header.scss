@@ -36,24 +36,18 @@
 
 .menu {
   display: flex;
+  gap: 40px;
+
   &__list {
     padding-top: 3px;
-    padding-right: 41px;
-    a {
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 25.6px;
-      color: #424551;
-
-      &:hover {
-        font-size: 18px;
-        color: rgb(241, 110, 22);
-        transition: 0.5s, delay;
-      }
-    }
   }
 
   &__link {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    color: #424551;
+    display: inline-block;
   }
 }
 
