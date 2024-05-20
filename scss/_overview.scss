@@ -1,7 +1,7 @@
 .overview {
   .wrapper {
   }
-
+  //Global Discription//
   &__construction {
     display: flex;
     flex-direction: column;
@@ -69,26 +69,49 @@
     }
   }
 
-  &__link {s
+  &__link {
     display: inline-block;
-    align-items: center;
+  }
+
+  &__volume {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    bottom: 10px;
+    z-index: 20;
   }
 
   &__img {
     padding: 29px 33px;
-
-    &--volume {
-      padding: 10px 10px;
-      background-color: #ffffff;
-      opacity: 0;
-    }
   }
 
-  &__content {
-
-  }
-
+  //Global Cart//
   &__table {
+    display: flex;
+    justify-content: center;
+    gap: 188px;
+  }
 
+  &__cart {
+    width: 285px;
+    height: 188px;
+    text-align: center;
+
+    img {
+      margin-bottom: 22px;
+    }
+
+    h4 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 30px;
+      margin-bottom: 9px;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25.6px;
+    }
   }
 }
