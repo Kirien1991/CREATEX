@@ -4,9 +4,12 @@
 
   @include media("max", $media1100) {
     display: flex;
+    position: fixed;
+    top: 0;
+    right: 30px;
   }
 
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: flex-end;
   position: relative;
@@ -54,5 +57,18 @@
   &:after {
     bottom: 50%;
     transform: rotate(45deg) translate(0, 50%);
+  }
+}
+
+.open {
+  display: flex !important;
+}
+
+@keyframes burgerAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
