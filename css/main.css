@@ -66,6 +66,16 @@ body a {
   padding: 17px 15px;
 }
 
+.wrap {
+  position: relative;
+}
+.wrap .wrapper {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  min-height: 243px;
+}
 .header {
   margin-bottom: 22px;
   position: relative;
@@ -187,6 +197,7 @@ body a {
   max-width: 577px;
   padding-top: 221px;
   padding-left: 1px;
+  margin-bottom: 177px;
 }
 .section__title {
   font-size: 72px;
@@ -382,4 +393,8 @@ body a {
   font-size: 16px;
   font-weight: 400;
   line-height: 25.6px;
+}
+
+.services__wrap {
+  position: relative;
 }
