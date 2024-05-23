@@ -20,9 +20,6 @@ body a {
   margin: 0 auto;
 }
 
-.button {
-  margin-bottom: 177px;
-}
 .button__btn {
   background: transparent;
   border-radius: 4px;
@@ -66,16 +63,6 @@ body a {
   padding: 17px 15px;
 }
 
-.wrap {
-  position: relative;
-}
-.wrap .wrapper {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  min-height: 243px;
-}
 .header {
   margin-bottom: 22px;
   position: relative;
@@ -395,6 +382,41 @@ body a {
   line-height: 25.6px;
 }
 
-.services__wrap {
+.services {
+  background-color: #e5e8ed;
+}
+.services .wrapper {
+  margin-bottom: 271px;
   position: relative;
+}
+.services__absolute {
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.services__discription {
+  display: flex;
+  align-items: center;
+}
+.services__discription p {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+}
+.services__cart p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #424551;
+}
+.services__input {
+  min-height: 44px;
+  background-color: #e5e8ed;
+  border: 1px solid #d7dadd;
+  color: #9a9ca5;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
 }

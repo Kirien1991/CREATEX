@@ -1,24 +1,51 @@
 .services {
+  background-color: #e5e8ed;
   .wrapper {
-  }
-
-  &__wrap {
+    margin-bottom: 271px;
     position: relative;
   }
 
   &__absolute {
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
   }
 
   &__discription {
+    display: flex;
+    align-items: center;
+    p {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 42px;
+    }
   }
 
   &__form {
   }
 
-  &__dial {
+  &__example {
   }
 
   &__cart {
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #424551;
+    }
+  }
+
+  &__input {
+    min-height: 44px;
+    background-color: #e5e8ed;
+    border: 1px solid #d7dadd;
+    color: #9a9ca5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
     &--message {
     }
   }

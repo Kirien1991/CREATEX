@@ -23,7 +23,6 @@ body {
 }
 
 .button {
-  margin-bottom: 177px;
   &__btn {
     background: transparent;
     border-radius: 4px;
@@ -71,20 +70,5 @@ body {
 
   &__image {
     padding: 17px 15px;
-  }
-}
-
-.wrap {
-  position: relative;
-
-  .wrapper {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    min-height: 243px;
-  }
-
-  &__discription {
   }
 }
