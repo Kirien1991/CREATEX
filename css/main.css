@@ -283,6 +283,9 @@ body a {
     opacity: 1;
   }
 }
+.overview {
+  min-height: 1480px;
+}
 .overview__construction {
   display: flex;
   flex-direction: column;
@@ -383,7 +386,10 @@ body a {
 }
 
 .services {
-  background-color: #e5e8ed;
+  background-image: url("../image/services/bg-image.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 880px;
 }
 .services .wrapper {
   margin-bottom: 271px;
@@ -392,24 +398,38 @@ body a {
 .services__absolute {
   background-color: #ffffff;
   position: absolute;
-  top: 0;
+  top: -103px;
   right: 0;
   left: 0;
+  border-radius: 4px;
 }
 .services__discription {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 .services__discription p {
   font-size: 28px;
   font-weight: 700;
   line-height: 42px;
 }
+.services__form {
+  display: flex;
+  margin-bottom: 20px;
+}
+.services__example {
+  display: flex;
+  gap: 24px;
+}
+.services__cart:nth-child(1) {
+  padding-left: 61px;
+}
 .services__cart p {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   color: #424551;
+  padding-bottom: 8px;
 }
 .services__input {
   min-height: 44px;
@@ -419,4 +439,34 @@ body a {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+  padding: 0px 73px 0px 15px;
+  border-radius: 4px;
+}
+.services__input--message {
+  padding: 0px 225px 0px 15px;
+}
+.services .button {
+  padding: 28px 25px;
+}
+.services .button__btn {
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  padding: 0px 35px;
+  margin-right: 21px;
+}
+.services .button__btn a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+.services .button__btn--orange {
+  background-color: #ff5a30;
+  border: none;
+  padding: 0 33px;
+}
+.services .button__btn--orange a {
+  letter-spacing: 0.1px;
 }
