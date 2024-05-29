@@ -202,6 +202,24 @@ body a {
   color: #787a80;
 }
 
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top__title {
+  padding-top: 81px;
+  margin-bottom: 59px;
+}
+.top__title h3 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+}
+.top__conteiner {
+  display: flex;
+  gap: 102px;
+}
 .header {
   margin-bottom: 22px;
   position: relative;
@@ -741,4 +759,40 @@ body a {
 }
 .services__image--bott {
   padding-bottom: 28px;
+}
+
+.partners {
+  background-color: #f4f5f6;
+}
+.port {
+  width: 49%;
+}
+.port__title h3 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+}
+.port__profile img {
+  border-radius: 50%;
+}
+.port__information p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: #424551;
+}
+.port__block a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  color: #1e212c;
+}
+.port__block p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #787a80;
+}
+.law {
+  width: 51%;
 }

@@ -1,11 +1,14 @@
+//Global html//
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+//variable//
 $fontBase: "Ubuntu", sans-serif;
 
+//Global body//
 body {
   font-family: $fontBase;
   li {
@@ -17,11 +20,13 @@ body {
   }
 }
 
+//Global wrapper//
 .wrapper {
   max-width: 1230px;
   margin: 0 auto;
 }
 
+//Global button//
 .button {
   &__btn {
     background: transparent;
@@ -56,6 +61,7 @@ body {
   }
 }
 
+//Global arrow//
 .arrow {
   width: 48px;
   height: 48px;
@@ -81,6 +87,7 @@ body {
   }
 }
 
+//Global styles: work > scroll > button//
 .work {
   .scroll {
     margin: 59px 0 120px 0;
@@ -121,6 +128,8 @@ body {
       padding-top: 18px;
     }
   }
+
+  //Global work > button//
   .button {
     margin: 23px 0 0 22px;
     &__btn {
@@ -153,6 +162,7 @@ body {
   .wrapper {
     margin-top: 120px;
 
+    //Global block section = arrow//
     .arrow {
       width: 48px;
       height: 48px;
@@ -227,6 +237,33 @@ body {
       font-weight: 400;
       line-height: 21px;
       color: #787a80;
+    }
+  }
+}
+
+//Global block partners = top//
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    padding-top: 81px;
+    margin-bottom: 59px;
+    h3 {
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 59.8px;
+    }
+  }
+
+  &__conteiner {
+    display: flex;
+    gap: 102px;
+  }
+
+  &__logo {
+    img {
     }
   }
 }

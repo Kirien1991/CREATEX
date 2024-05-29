@@ -1,5 +1,66 @@
 .partners {
-  background-color: #f4f5f6;
   .wrapper {
   }
+  background-color: #f4f5f6;
+
+  &__bottom {
+  }
+}
+
+.port {
+  width: 49%;
+  &__top {
+  }
+
+  &__title {
+    h3 {
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 59.8px;
+    }
+  }
+
+  &__profile {
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  &__information {
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25.6px;
+      color: #424551;
+    }
+  }
+
+  &__bottom {
+  }
+
+  &__block {
+    a {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 25.6px;
+      color: #1e212c;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #787a80;
+    }
+  }
+
+  &__arrow {
+  }
+
+  &__link {
+  }
+}
+
+.law {
+  width: 51%;
 }
