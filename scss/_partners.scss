@@ -4,15 +4,19 @@
   background-color: #f4f5f6;
 
   &__bottom {
+    display: flex;
+    padding-bottom: 119px;
   }
 }
 
 .port {
   width: 49%;
   &__top {
+    margin-bottom: 26px;
   }
 
   &__title {
+    margin-bottom: 60px;
     h3 {
       font-size: 46px;
       font-weight: 700;
@@ -21,6 +25,7 @@
   }
 
   &__profile {
+    margin-bottom: 22px;
     img {
       border-radius: 50%;
     }
@@ -36,6 +41,8 @@
   }
 
   &__bottom {
+    display: flex;
+    justify-content: space-between;
   }
 
   &__block {
@@ -44,6 +51,7 @@
       font-weight: 700;
       line-height: 25.6px;
       color: #1e212c;
+      padding-bottom: 4px;
     }
 
     p {
@@ -58,9 +66,22 @@
   }
 
   &__link {
+    padding: 29px 24px 0 0;
+    &--right {
+      padding-right: 6px;
+    }
   }
 }
 
 .law {
   width: 51%;
+  position: relative;
+
+  &__image {
+    position: absolute;
+    right: 0;
+
+    img {
+    }
+  }
 }

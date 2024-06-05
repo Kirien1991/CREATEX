@@ -206,6 +206,7 @@ body a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 177px;
 }
 .top__title {
   padding-top: 81px;
@@ -220,6 +221,12 @@ body a {
   display: flex;
   gap: 102px;
 }
+.top__logo:hover {
+  background-color: aqua;
+  border-radius: 10%;
+  transition: all;
+}
+
 .header {
   margin-bottom: 22px;
   position: relative;
@@ -764,13 +771,27 @@ body a {
 .partners {
   background-color: #f4f5f6;
 }
+.partners__bottom {
+  display: flex;
+  padding-bottom: 119px;
+}
+
 .port {
   width: 49%;
+}
+.port__top {
+  margin-bottom: 26px;
+}
+.port__title {
+  margin-bottom: 60px;
 }
 .port__title h3 {
   font-size: 46px;
   font-weight: 700;
   line-height: 59.8px;
+}
+.port__profile {
+  margin-bottom: 22px;
 }
 .port__profile img {
   border-radius: 50%;
@@ -781,11 +802,16 @@ body a {
   line-height: 25.6px;
   color: #424551;
 }
+.port__bottom {
+  display: flex;
+  justify-content: space-between;
+}
 .port__block a {
   font-size: 16px;
   font-weight: 700;
   line-height: 25.6px;
   color: #1e212c;
+  padding-bottom: 4px;
 }
 .port__block p {
   font-size: 14px;
@@ -793,6 +819,18 @@ body a {
   line-height: 21px;
   color: #787a80;
 }
+.port__link {
+  padding: 29px 24px 0 0;
+}
+.port__link--right {
+  padding-right: 6px;
+}
+
 .law {
   width: 51%;
+  position: relative;
+}
+.law__image {
+  position: absolute;
+  right: 0;
 }
