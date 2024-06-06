@@ -802,6 +802,9 @@ body a {
   line-height: 25.6px;
   color: #424551;
 }
+.port__information span {
+  letter-spacing: 0.2px;
+}
 .port__bottom {
   display: flex;
   justify-content: space-between;
@@ -833,4 +836,38 @@ body a {
 .law__image {
   position: absolute;
   right: 0;
+}
+.raiting .top {
+  margin-bottom: 20px;
+}
+.raiting .top__title {
+  margin-top: 102px;
+}
+.raiting__block {
+  width: 148px;
+  height: 189px;
+}
+.raiting__circle {
+  width: 148px;
+  height: 148px;
+  border: 6px solid #f89828;
+  border-radius: 50%;
+}
+.raiting__circle p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.raiting__circle--pink {
+  border: 6px solid #f52f6e;
+}
+.raiting__circle--blue {
+  border: 6px solid #5a87fc;
+}
+.raiting__circle--green {
+  border: 6px solid #03cea4;
+}
+.raiting__tit {
+  font-size: 14px;
+  line-height: 21px;
 }

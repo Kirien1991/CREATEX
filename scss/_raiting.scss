@@ -2,8 +2,10 @@
   .wrapper {
   }
 
-  &__title {
-    h3 {
+  .top {
+    margin-bottom: 20px;
+    &__title {
+      margin-top: 102px;
     }
   }
 
@@ -11,28 +13,42 @@
   }
 
   &__block {
+    width: 148px;
+    height: 189px;
   }
 
   &__circle {
+    width: 148px;
+    height: 148px;
+    border: 6px solid #f89828;
+    border-radius: 50%;
     p {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 48px;
     }
 
     &--pink {
+      border: 6px solid #f52f6e;
       p {
       }
     }
 
     &--blue {
+      border: 6px solid #5a87fc;
       p {
       }
     }
 
     &--green {
+      border: 6px solid #03cea4;
       p {
       }
     }
   }
 
   &__tit {
+    font-size: 14px;
+    line-height: 21px;
   }
 }
