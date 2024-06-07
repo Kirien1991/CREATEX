@@ -3,13 +3,16 @@
   }
 
   .top {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     &__title {
       margin-top: 102px;
     }
   }
 
-  &__quanity {
+  &__quantity {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
   }
 
   &__block {
@@ -22,6 +25,10 @@
     height: 148px;
     border: 6px solid #f89828;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     p {
       font-size: 32px;
       font-weight: 700;

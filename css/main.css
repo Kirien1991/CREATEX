@@ -838,10 +838,15 @@ body a {
   right: 0;
 }
 .raiting .top {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .raiting .top__title {
   margin-top: 102px;
+}
+.raiting__quantity {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
 }
 .raiting__block {
   width: 148px;
@@ -852,6 +857,9 @@ body a {
   height: 148px;
   border: 6px solid #f89828;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .raiting__circle p {
   font-size: 32px;
