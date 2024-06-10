@@ -860,6 +860,7 @@ body a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 .raiting__circle p {
   font-size: 32px;
@@ -878,4 +879,10 @@ body a {
 .raiting__tit {
   font-size: 14px;
   line-height: 21px;
+  display: flex;
+  justify-content: center;
+}
+
+.construction .wrapper .top {
+  margin-top: 99px;
 }

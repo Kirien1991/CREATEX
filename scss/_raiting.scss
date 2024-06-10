@@ -28,6 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 
     p {
       font-size: 32px;
@@ -57,5 +58,7 @@
   &__tit {
     font-size: 14px;
     line-height: 21px;
+    display: flex;
+    justify-content: center;
   }
 }
