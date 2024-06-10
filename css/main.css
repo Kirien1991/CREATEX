@@ -837,6 +837,12 @@ body a {
   position: absolute;
   right: 0;
 }
+.position {
+  background-image: url("../image/rating/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: -8px -348px;
+}
+
 .raiting .top {
   margin-bottom: 0px;
 }
@@ -861,6 +867,10 @@ body a {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+}
+.raiting__circle svg {
+  width: 100%;
+  height: 100%;
 }
 .raiting__circle p {
   font-size: 32px;
