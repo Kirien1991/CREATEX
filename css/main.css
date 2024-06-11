@@ -895,4 +895,21 @@ body a {
 
 .construction .wrapper .top {
   margin-top: 99px;
+  margin-bottom: 0;
+}
+.construction__conteiner {
+  display: flex;
+}
+.construction__blockLeft {
+  width: 59%;
+}
+.construction__workImage img {
+  border-radius: 4px, 4px, 0px, 0px;
+}
+.construction__blockRight {
+  width: 41%;
+  margin-left: 23px;
+}
+.construction__image img {
+  border-radius: 4px, 4px, 0px, 0px;
 }
