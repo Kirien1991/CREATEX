@@ -13,25 +13,38 @@
   &__conteiner {
     display: flex;
   }
+}
 
-  &__blockLeft {
-    width: 59%;
+.constructionCard {
+  background-color: #FFFFFF;
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E212C;
   }
 
-  &__workImage {
-    img {
-      border-radius: 4px, 4px, 0px, 0px;
-    }
+  &__desc {
+    font-size: 14px;
+    line-height: 25.6px;
+    color: #424551;
   }
 
-  &__blockRight {
-    width: 41%;
-    margin-left: 23px;
+}
+
+.constructionList {
+  a {
+    font-size: 14px;
+    line-height: 21px;
+    color: #787A80;
+
   }
 
-  &__image {
-    img {
-      border-radius: 4px, 4px, 0px, 0px;
-    }
+  li {
+
+  }
+
+  img {
+
   }
 }

@@ -900,16 +900,24 @@ body a {
 .construction__conteiner {
   display: flex;
 }
-.construction__blockLeft {
-  width: 59%;
+
+.constructionCard {
+  background-color: #FFFFFF;
 }
-.construction__workImage img {
-  border-radius: 4px, 4px, 0px, 0px;
+.constructionCard__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1E212C;
 }
-.construction__blockRight {
-  width: 41%;
-  margin-left: 23px;
+.constructionCard__desc {
+  font-size: 14px;
+  line-height: 25.6px;
+  color: #424551;
 }
-.construction__image img {
-  border-radius: 4px, 4px, 0px, 0px;
+
+.constructionList a {
+  font-size: 14px;
+  line-height: 21px;
+  color: #787A80;
 }
