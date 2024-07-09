@@ -20,34 +20,32 @@ body a {
   margin: 0 auto;
 }
 
-.button__btn {
+.button {
+  font-family: "Ubuntu", sans-serif;
   background: transparent;
   border-radius: 4px;
   border: 1px solid #ffffff;
-  padding: 0px 35px;
-  margin-right: 21px;
-}
-.button__btn a {
+  padding: 0px 42px;
   font-size: 16px;
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0.5px;
   color: #ffffff;
+  cursor: pointer;
 }
-.button__btn--orange {
+.button--small {
+  font-size: 14px;
+  line-height: 44px;
+  padding: 0px 34px;
+}
+.button--orange {
   background-color: #ff5a30;
   border: none;
-  padding: 0 39px;
-}
-.button__btn--orange a {
   letter-spacing: 0.1px;
 }
-.button__btn--portfolio {
+.button--portfolio {
   background-color: #ff5a30;
   border: none;
-  padding: 0 39px;
-}
-.button__btn--portfolio a {
   letter-spacing: 0.1px;
 }
 
@@ -71,69 +69,22 @@ body a {
   padding: 17px 15px;
 }
 
-.work {
-  min-height: 752px;
-  background-color: #ffffff;
-}
-.work .scroll {
-  margin: 59px 0 120px 0;
+.scroll {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 18px;
+  gap: 40px;
 }
-.work .scroll .button__btn {
-  background: transparent;
-  border-radius: 4px;
-  padding: 2px 42px;
-  background-color: #ff5a30;
-}
-.work .scroll .button__btn a {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0.5px;
-  color: #ffffff;
-}
-.work .scroll .button__btn--orange {
-  background-color: #ff5a30;
-  border: none;
-  padding: 7px 37px;
-}
-.work .scroll .button__btn--orange a {
-  letter-spacing: 1.1px;
-}
-.work .scroll__tx {
+.scroll__tx {
   font-size: 28px;
   font-weight: 700;
   line-height: 42px;
-  padding-left: 20px;
-  padding-top: 18px;
 }
-.work .button {
-  margin: 23px 0 0 22px;
-}
-.work .button__btn {
-  background: transparent;
-  border-radius: 4px;
-  border: 1px solid #ff5a30;
-  padding: 0px 28px;
-  padding-top: 2px;
-}
-.work .button__btn a {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.5px;
-  color: #ff5a30;
-}
-.work .button__btn--orange {
-  background-color: #ff5a30;
-  border: none;
-  padding: 0 39px;
-}
-.work .button__btn--orange a {
-  letter-spacing: 0.1px;
+
+.work {
+  min-height: 752px;
+  background-color: #ffffff;
+  padding-bottom: 120px;
 }
 .work .wrapper {
   margin-top: 120px;
@@ -174,6 +125,7 @@ body a {
 .work__average {
   display: flex;
   gap: 30px;
+  margin-bottom: 80px;
 }
 .work__cart {
   width: 390px;
@@ -550,47 +502,13 @@ body a {
 }
 
 .services {
-  min-height: 880px;
   background-image: url("../image/services/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 80px;
 }
 .services .wrapper {
-  margin-bottom: 271px;
   position: relative;
-}
-.services .scroll {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 18px;
-}
-.services .scroll .button__btn {
-  background: transparent;
-  border-radius: 4px;
-  padding: 2px 42px;
-  background-color: #ff5a30;
-}
-.services .scroll .button__btn a {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0.5px;
-  color: #ffffff;
-}
-.services .scroll .button__btn--orange {
-  background-color: #ff5a30;
-  border: none;
-  padding: 7px 37px;
-}
-.services .scroll .button__btn--orange a {
-  letter-spacing: 1.1px;
-}
-.services .scroll__tx {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 42px;
-  padding-left: 47px;
 }
 .services__absolute {
   background-color: #ffffff;
@@ -643,31 +561,6 @@ body a {
 .services__input--message {
   padding: 0px 225px 0px 15px;
 }
-.services .button {
-  padding: 28px 25px;
-}
-.services .button__btn {
-  background: transparent;
-  border-radius: 4px;
-  border: 1px solid #ffffff;
-  padding: 0px 35px;
-  margin-right: 21px;
-}
-.services .button__btn a {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0.5px;
-  color: #ffffff;
-}
-.services .button__btn--orange {
-  background-color: #ff5a30;
-  border: none;
-  padding: 0 33px;
-}
-.services .button__btn--orange a {
-  letter-spacing: 0.1px;
-}
 .services .overview {
   position: absolute;
 }
@@ -697,7 +590,7 @@ body a {
 .services__content {
   display: flex;
   gap: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .services__block {
   width: 285px;
@@ -898,26 +791,85 @@ body a {
   margin-bottom: 0;
 }
 .construction__conteiner {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  grid-template-rows: auto auto;
+  grid-auto-flow: column;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-bottom: 80px;
 }
 
 .constructionCard {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.031372549), 0 12px 10px -6px rgba(154, 156, 165, 0.0392156863), 0 30px 24px -10px rgba(154, 156, 165, 0.0509803922), 0 80px 80px -20px rgba(154, 156, 165, 0.0784313725);
+}
+.constructionCard--big {
+  grid-row: span 2;
+}
+.constructionCard--big .constructionCard__image img {
+  max-height: 360px;
+}
+.constructionCard--big .constructionCard__content {
+  padding: 25px;
+}
+.constructionCard--big .constructionCard__title {
+  margin-bottom: 12px;
 }
 .constructionCard__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  color: #1E212C;
+  color: #1e212c;
+  margin-bottom: 10px;
+}
+.constructionCard__title:hover {
+  color: #ff5a30;
 }
 .constructionCard__desc {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25.6px;
   color: #424551;
+  margin-top: 16px;
+}
+.constructionCard__image {
+  font-size: 0;
+}
+.constructionCard__image img {
+  max-height: 156px;
+  width: 100%;
+}
+.constructionCard__content {
+  padding: 17px 25px;
 }
 
+.constructionList {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 .constructionList a {
   font-size: 14px;
   line-height: 21px;
-  color: #787A80;
+  color: #787a80;
+}
+.constructionList li {
+  position: relative;
+}
+.constructionList li:before {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  height: 12px;
+  margin: auto;
+  background-color: #787a80;
+}
+.constructionList li:last-of-type:before {
+  display: none;
+}
+.constructionList img {
+  margin-right: 4px;
 }
