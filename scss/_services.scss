@@ -36,13 +36,12 @@
 
   &__example {
     display: flex;
-    gap: 24px;
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
   }
 
   &__cart {
-    &:nth-child(1) {
-      padding-left: 61px;
-    }
     p {
       font-size: 14px;
       font-weight: 400;
@@ -72,28 +71,6 @@
 
     &__content {
       padding-top: 92px;
-    }
-    &__construction {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 120px;
-      margin-bottom: 60px;
-    }
-
-    &__title {
-      font-size: 46px;
-      font-weight: 700;
-      line-height: 59.8px;
-      color: #1e212c;
-      padding-bottom: 23px;
-    }
-
-    &__text {
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 27px;
-      color: #787a80;
     }
   }
 
