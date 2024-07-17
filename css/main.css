@@ -570,7 +570,7 @@ body a {
   position: absolute;
 }
 .services .overview__content {
-  padding-top: 92px;
+  padding-top: 90px;
 }
 .services__content {
   display: flex;
@@ -856,4 +856,5 @@ body a {
 
 .bottomApe {
   background-image: url("/image/bottomApe/image.jpg");
+  padding: 80px 0;
 }
