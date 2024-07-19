@@ -75,6 +75,36 @@
   color: #9a9ca5;
   border: 1px solid #d7dadd;
 }
+.formSend .chekbox {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+.formSend .chekbox input {
+  display: none;
+}
+.formSend .chekbox input:checked + span:before {
+  display: flex;
+}
+.formSend .chekbox__icon {
+  position: relative;
+  display: flex;
+  background-color: #ff5a30;
+  width: 16px;
+  height: 16px;
+  border-radius: 1px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.formSend .chekbox__icon:before {
+  content: "";
+  display: none;
+  background-image: url("/image/bottomApe/check.svg");
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 8px;
+}
 
 body {
   font-family: "Ubuntu", sans-serif;
@@ -910,31 +940,4 @@ body a {
   padding-left: 36px;
   padding-top: 19px;
   margin-bottom: 24px;
-}
-.bottomApe__click {
-  position: relative;
-  background-color: #ff5a30;
-  display: block;
-  width: 16px;
-  height: 16px;
-  border-radius: 1px;
-  border: 1px solid #ff5a30;
-  margin-top: 2px;
-  margin-right: 13px;
-}
-.bottomApe__click:before {
-  content: "";
-  position: absolute;
-  background-image: url("/image/bottomApe/check.svg");
-  background-repeat: no-repeat;
-  top: 4px;
-  left: 3px;
-  right: 0;
-  bottom: 0;
-  z-index: 10;
-  cursor: pointer;
-}
-.bottomApe__txt {
-  font-size: 14px;
-  line-height: 21px;
 }

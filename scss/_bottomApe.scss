@@ -15,34 +15,4 @@
     padding-top: 19px;
     margin-bottom: 24px;
   }
-
-  &__click {
-    position: relative;
-    background-color: #ff5a30;
-    display: block;
-    width: 16px;
-    height: 16px;
-    border-radius: 1px;
-    border: 1px solid #ff5a30;
-    margin-top: 2px;
-    margin-right: 13px;
-
-    &:before {
-      content: "";
-      position: absolute;
-      background-image: url("/image/bottomApe/check.svg");
-      background-repeat: no-repeat;
-      top: 4px;
-      left: 3px;
-      right: 0;
-      bottom: 0;
-      z-index: 10;
-      cursor: pointer;
-    }
-  }
-
-  &__txt {
-    font-size: 14px;
-    line-height: 21px;
-  }
 }
