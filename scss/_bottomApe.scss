@@ -1,13 +1,47 @@
 .bottomApe {
   background-image: url("/image/bottomApe/image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   padding: 80px 0;
 
   .wrapper {
+    display: flex;
+    justify-content: flex-end;
   }
 
-  .formSend {
+  &__block {
+    display: flex;
+    padding-left: 43px;
+    padding-top: 20px;
   }
 
-  .formSend__title {
+  &__click {
+    position: relative;
+    background-color: #ff5a30;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 1px;
+    border: 1px solid #ff5a30;
+    margin-top: 2px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      background-image: url("/image/bottomApe/check.svg");
+      background-repeat: no-repeat;
+      top: 3px;
+      left: 2px;
+      right: 0;
+      bottom: 0;
+      z-index: 10;
+      cursor: pointer;
+    }
+  }
+
+  &__txt {
+    padding-left: 13px;
+    font-size: 14px;
+    line-height: 21px;
   }
 }
