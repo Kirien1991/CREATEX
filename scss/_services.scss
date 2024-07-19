@@ -29,38 +29,6 @@
     }
   }
 
-  &__example {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    width: 100%;
-  }
-
-  &__cart {
-    p {
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 21px;
-      color: #424551;
-      padding-bottom: 8px;
-    }
-  }
-
-  &__input {
-    min-height: 44px;
-    background-color: #e5e8ed;
-    border: 1px solid #d7dadd;
-    color: #9a9ca5;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    padding: 0px 73px 0px 15px;
-    border-radius: 4px;
-    &--message {
-      padding: 0px 225px 0px 15px;
-    }
-  }
-
   .overview {
     position: absolute;
 
