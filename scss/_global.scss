@@ -5,10 +5,13 @@
   box-sizing: border-box;
 }
 
-@import "./global/form";
-
 //variable//
 $fontBase: "Ubuntu", sans-serif;
+
+@import "./global/typography";
+@import "./global/form";
+
+
 
 //Global body//
 body {
@@ -210,18 +213,18 @@ body {
   }
 }
 
-.typography {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 42px;
+.ui {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 
-  &--title {
-    font-size: 46px;
-    line-height: 59.8px;
+  &__block {
+    padding: 10px;
+    border: 1px solid #000;
   }
 
-  &--leadBold {
-    font-size: 20px;
-    line-height: 30px;
+  &__title {
+
   }
 }
