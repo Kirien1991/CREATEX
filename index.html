@@ -196,44 +196,64 @@
             <p>Want to know more? Ask us a question:</p>
           </div>
 
-          <div class="formSend__form">
-            <div class="formSend__example">
-              <div class="formSend__cart">
-                <p>Name</p>
-                <input
-                  type="text"
-                  placeholder="Your name"
-                  class="formSend__input"
-                  required=""
-                />
-              </div>
-              <div class="formSend__cart">
-                <p>Phone</p>
-                <input
-                  type="text"
-                  placeholder="Your phone"
-                  class="formSend__input"
-                  required=""
-                />
-              </div>
-              <div class="formSend__cart">
-                <p>Message</p>
-                <input
-                  type="text"
-                  placeholder="Your message"
-                  class="formSend__input formSend__input--message"
-                  required=""
-                />
-              </div>
-              <div class="formSend__cart">
-                <p>&nbsp;</p>
-                <button class="button button--orange button--small">
-                  SEND
-                </button>
-              </div>
+          <form class="services__form">
+            <div class="services__grid25">
+              <label class="field">
+                <div class="field__label typography typography--smallRegular">
+                  Email*
+                </div>
+                <div class="field__content">
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    class="field__input typography typography--smallRegular"
+                  />
+                </div>
+              </label>
+            </div>
+
+            <div class="services__grid25">
+              <label class="field">
+                <div class="field__label typography typography--smallRegular">
+                  Email*
+                </div>
+                <div class="field__content">
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    class="field__input typography typography--smallRegular"
+                  />
+                </div>
+              </label>
+            </div>
+            
+            <div class="services__grid40">
+              <label class="field">
+                <div class="field__label typography typography--smallRegular">
+                  Email*
+                </div>
+                <div class="field__content">
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    class="field__input typography typography--smallRegular"
+                  />
+                </div>
+              </label>
+            </div>
+
+            <div class="services__gridAuto">
+              <label class="field">
+                <div class="field__label typography typography--smallRegular">
+                  &nbsp;
+                </div>
+                <div class="field__content">
+                  <button class="button button--orange button--small">SEND</button>
+                </div>
+              </label>
             </div>
           </div>
-        </div>
+        </form>
 
         <!--Global Block Discription-->
         <div class="overview__content">
@@ -597,55 +617,69 @@
 
           <div class="formSend__form formSend__form--footer">
             <div class="formSend__example formSend__example--footer">
-              <div class="formSend__cart formSend__cart--bott">
-                <p>Name*</p>
-                <input
-                  type="text"
-                  placeholder="Your name"
-                  class="formSend__input formSend__input--footer"
-                  required=""
-                />
-              </div>
-              <div class="formSend__cart formSend__cart--bott">
-                <p>Phone*</p>
-                <input
-                  type="text"
-                  placeholder="Your phone number"
-                  class="formSend__input formSend__input--footer"
-                  required=""
-                />
-              </div>
+              <label class="field">
+                <div class="field__label typography typography--smallRegular">
+                  Name*
+                </div>
+                <div class="field__content">
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    class="field__input typography typography--smallRegular"
+                  />
+                </div>
+              </label>
 
-              <div class="formSend__cart formSend__cart--bott">
-                <p>Email</p>
-                <input
-                  type="text"
-                  placeholder="Your working email"
-                  class="formSend__input formSend__input--footer"
-                  required=""
-                />
-              </div>
-              <div class="formSend__cart formSend__cart--bott">
-                <p>Message*</p>
-                <input
-                  type="text"
-                  placeholder="Your message"
-                  class="formSend__input formSend__input--messageBott"
-                  required=""
-                />
-              </div>
+              <label class="field">
+                <div class="field__label typography typography--smallRegular">
+                  Phone*
+                </div>
+                <div class="field__content">
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    class="field__input typography typography--smallRegular"
+                  />
+                </div>
+              </label>
+
+              <label class="field">
+                <div class="field__label typography typography--smallRegular">
+                  Email
+                </div>
+                <div class="field__content">
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    class="field__input typography typography--smallRegular"
+                  />
+                </div>
+              </label>
+
+              <label class="field">
+                <div class="field__label typography typography--smallRegular">
+                  Message*
+                </div>
+                <div class="field__content">
+                  <textarea
+                    type="text"
+                    placeholder="Your name"
+                    class="field__textarea typography typography--smallRegular"
+                  ></textarea>
+                </div>
+              </label>
+
+              <label class="checkbox">
+                <input type="checkbox" />
+                <span class="checkbox__icon"></span>
+                <span class="checkbox__text">
+                  I agree to receive communications from Createx
+                  <br />Construction Bureau.
+                </span>
+              </label>
             </div>
           </div>
           <div class="bottomApe__block">
-            <label class="checkbox">
-              <input type="checkbox" />
-              <span class="checkbox__icon"></span>
-              <span class="checkbox__text">
-                I agree to receive communications from Createx
-                <br />Construction Bureau.
-              </span>
-            </label>
-
             <div class="formSend__cart formSend__cart--button">
               <button class="button button--orange button--small">
                 SEND REQUEST
@@ -658,9 +692,41 @@
 
     <footer class="footer">
       <div class="wrapper">
-        <div class="footer__info">
-          <div class="footer__logo">
-            <h4><a href="#">CREATE</a></h4>
+        <div class="footer__grid">
+          <div class="footer__info">
+            <div class="footer__logo">
+              <h4><a href="#">CREATE</a></h4>
+            </div>
+
+            <div class="socials">
+              <div class="socials__img">
+                <a href="#"><img src="./image/footer/whatsApp.svg" alt="" /></a>
+              </div>
+              <div class="socials__img">
+                <a href="#"
+                  ><img src="./image/footer/messanger.svg" alt=""
+                /></a>
+              </div>
+              <div class="socials__img">
+                <a href="#"><img src="./image/footer/facebook.svg" alt="" /></a>
+              </div>
+              <div class="socials__img">
+                <a href="#"><img src="./image/footer/twitter.svg" alt="" /></a>
+              </div>
+
+              <div class="socials__img">
+                <a href="#"><img src="./image/footer/subtract.svg" alt="" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__text">
+            <p class="typography typography--smallRegulargrey">
+              Createx Construction Bureau has been successfully operating in the
+              USA construction market since 2000. We are proud to offer you
+              quality construction and exemplary service. Our mission is to set
+              the highest standards for construction sphere.
+            </p>
           </div>
         </div>
       </div>

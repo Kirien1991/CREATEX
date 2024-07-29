@@ -11,8 +11,6 @@ $fontBase: "Ubuntu", sans-serif;
 @import "./global/typography";
 @import "./global/form";
 
-
-
 //Global body//
 body {
   font-family: $fontBase;
@@ -225,6 +223,15 @@ body {
   }
 
   &__title {
+  }
+}
 
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  padding-left: 1px;
+
+  &__img {
   }
 }

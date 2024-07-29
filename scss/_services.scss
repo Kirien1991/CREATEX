@@ -8,6 +8,25 @@
     position: relative;
   }
 
+  &__form {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    gap: 25px;
+  }
+
+  &__grid25 {
+    width: 25%;
+  }
+
+  &__grid40 {
+    width: 40%;
+  }
+
+  &__gridAuto {
+    width: auto;
+  }
+
   &__absolute {
     background-color: #ffffff;
     position: absolute;

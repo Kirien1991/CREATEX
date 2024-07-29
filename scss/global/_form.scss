@@ -29,6 +29,7 @@
     &--bott {
       padding-left: 5px;
     }
+
     p {
       font-size: 14px;
       font-weight: 400;
@@ -43,51 +44,87 @@
       padding-right: 38px;
     }
   }
-
-  &__input {
-    min-height: 44px;
-    background-color: #e5e8ed;
-    border: 1px solid #d7dadd;
-    color: #9a9ca5;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    padding: 0px 73px 0px 15px;
-    border-radius: 4px;
-    max-width: 260px;
-    &--message {
-      padding: 0px 225px 0px 15px;
-      max-width: 414px;
-    }
-
-    &--footer {
-      padding: 0px 228px 0px 15px;
-      color: #f4f5f6;
-      opacity: 0.8;
-      color: #9a9ca5;
-      border: 1px solid #d7dadd;
-      max-width: 415px;
-    }
-
-    &--messageBott {
-      min-height: 66px;
-      padding: 2px 207px 25px 17px;
-      opacity: 0.8;
-      color: #9a9ca5;
-      border: 1px solid #d7dadd;
-      max-width: 415px;
-    }
-  }
 }
 
 input {
   font-family: $fontBase;
 }
 
+.field {
+  &--withBtn {
+    display: flex;
+    width: 100%;
+
+    &--black {
+      .field__input {
+        border: 1px solid #ffffff33;
+        background-color: #ffffff1f;
+      }
+    }
+
+    .field__content {
+      width: 100%;
+    }
+
+    .field__input {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-right: 0;
+    }
+
+    .button {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+
+  &__label {
+    display: block;
+    color: #424551;
+    margin-bottom: 8px;
+  }
+
+  &__content {
+    display: block;
+  }
+
+  &__input {
+    height: 44px;
+    border: 1px solid #d7dadd;
+    background-color: #f4f5f6;
+    border-radius: 4px;
+    width: 100%;
+    padding: 0 15px;
+    outline: none;
+    color: #424551;
+    box-sizing: border-box;
+
+    &::placeholder {
+      color: #9a9ca5;
+    }
+  }
+
+  &__textarea {
+    border: 1px solid #d7dadd;
+    background-color: #f4f5f6;
+    border-radius: 4px;
+    width: 100%;
+    min-height: 66px;
+    padding: 10px 15px;
+    outline: none;
+    color: #424551;
+    resize: vertical;
+    box-sizing: border-box;
+
+    &::placeholder {
+      color: #9a9ca5;
+    }
+  }
+}
+
 .checkbox {
   display: flex;
   user-select: none;
-  margin-bottom: 24px;
 
   input {
     display: none;
