@@ -591,73 +591,79 @@
     <div class="bottomApe">
       <div class="wrapper">
         <div class="formSend">
-          <div class="typography">A quick way to discuss details</div>
+          <div class="typography typography--form">
+            A quick way to discuss details
+          </div>
 
           <div class="formSend__form formSend__form--footer">
             <div class="formSend__example formSend__example--footer">
-              <div class="formSend__cart">
-                <label class="field">
-                  <span class="field__label typography typography--smallRegular">
-                    Name*
-                  </span>
-                  <span class="field__content">
-                    <input type="text" placeholder="Your name" class="field__input typography typography--smallRegular">
-                  </span>
-                </label>
+              <div class="formSend__cart formSend__cart--bott">
+                <p>Name*</p>
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  class="formSend__input formSend__input--footer"
+                  required=""
+                />
               </div>
-              <div class="formSend__cart">
-                <label class="field">
-                  <span class="field__label typography typography--smallRegular">
-                    Phone*
-                  </span>
-                  <span class="field__content">
-                    <input type="text" placeholder="Your name" class="field__input typography typography--smallRegular">
-                  </span>
-                </label>
+              <div class="formSend__cart formSend__cart--bott">
+                <p>Phone*</p>
+                <input
+                  type="text"
+                  placeholder="Your phone number"
+                  class="formSend__input formSend__input--footer"
+                  required=""
+                />
               </div>
 
-              <div class="formSend__cart">
-                <label class="field">
-                  <span class="field__label typography typography--smallRegular">
-                    Email*
-                  </span>
-                  <span class="field__content">
-                    <input type="text" placeholder="Your name" class="field__input typography typography--smallRegular">
-                  </span>
-                </label>
+              <div class="formSend__cart formSend__cart--bott">
+                <p>Email</p>
+                <input
+                  type="text"
+                  placeholder="Your working email"
+                  class="formSend__input formSend__input--footer"
+                  required=""
+                />
               </div>
-              <div class="formSend__cart">
-                <label class="field">
-                  <span class="field__label typography typography--smallRegular">
-                    Message*
-                  </span>
-                  <span class="field__content">
-                    <textarea placeholder="Your message" class="field__textarea typography typography--smallRegular"></textarea>
-                  </span>
-                </label>
+              <div class="formSend__cart formSend__cart--bott">
+                <p>Message*</p>
+                <input
+                  type="text"
+                  placeholder="Your message"
+                  class="formSend__input formSend__input--messageBott"
+                  required=""
+                />
               </div>
             </div>
           </div>
           <div class="bottomApe__block">
             <label class="checkbox">
-              <input type="checkbox">
-              <span class="checkbox__icon">
+              <input type="checkbox" />
+              <span class="checkbox__icon"></span>
+              <span class="checkbox__text">
+                I agree to receive communications from Createx
+                <br />Construction Bureau.
               </span>
-              <span class="checkbox__text">I agree to receive communications from Createx <br>Construction Bureau.</span>
             </label>
-           
 
-          <div class="formSend__cart formSend__cart--button">
-            <button class="button button--orange button--small">
-              SEND REQUEST
-            </button>
+            <div class="formSend__cart formSend__cart--button">
+              <button class="button button--orange button--small">
+                SEND REQUEST
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <footer class="footer">
-      <div class="wrapper"></div>
+      <div class="wrapper">
+        <div class="footer__info">
+          <div class="footer__logo">
+            <h4><a href="#">CREATE</a></h4>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script src="js/main.js"></script>

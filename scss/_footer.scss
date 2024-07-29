@@ -1,3 +1,32 @@
 .footer {
   background-color: #1e212c;
+
+  .wrapper {
+  }
+
+  &__info {
+  }
+
+  &__logo {
+    a {
+      position: relative;
+      font-size: 27px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      color: #ffffff;
+      padding-right: 83px;
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 5px;
+        right: 0;
+        left: 119px;
+        bottom: 0;
+        display: block;
+        background-image: url("../image/header/Vector.svg");
+        background-repeat: no-repeat;
+      }
+    }
+  }
 }
